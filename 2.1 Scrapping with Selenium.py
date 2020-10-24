@@ -50,7 +50,7 @@ elif Gender == 'F':
 else:
     obj.select_by_index(3)
 
-# Example: work on scrape table, when identified by odd and even rows
+# Example: work on scraping a table, when can only identified by odd and even rows
 even = driver.find_elements_by_class_name("evenRow")
 odd = driver.find_elements_by_class_name("oddRow")
 o = []
